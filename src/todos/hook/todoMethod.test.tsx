@@ -37,7 +37,7 @@ describe('useTodo', () => {
     act(() => {
       result.current.addTodo('Learn TDD');
       result.current.addTodo('english');
-      result.current.addTodo('read TD
+      result.current.addTodo('read TDD');
 
       result.current.toggleTodo(2);
     });
